@@ -5,9 +5,10 @@ public class Supermarket {
 	public static void main(String[] args) {
 		GroceryItems cannedAppleSauce = new GroceryItems ("AppleSauce", 2.00, 50);
 		
-		Produce guava = new Produce ("Guava Fruit", 0.18, 40, "12/31/2018", 5);
+		Produce guava = new Produce (0.18, 40, "Guava Fruit", "12/31/2018", 5);
+		System.out.println(guava.getQuantityInStock());
 		
-		Flowers bouquet = new Flowers ("Outdoor Plant", 50.00, 30, "Bleeding Heart", "Pink");
+		Flowers bouquet = new Flowers (50.00, 30, "Outdoor Plant", "Bleeding Heart", "Pink");
 
 		double totalCost = 0;
 		

@@ -5,21 +5,6 @@ public class GroceryItems {
 	private double unitPrice;
 	private int quantityInStock;
 	
-	/*public GroceryItems() {
-		setName("not set");
-		setUnitPrice(5);
-		setQuantityInStock(100);
-	}
-	
-	private void setQuantityInStock(int i) {
-		// TODO Auto-generated method stub
-		
-	} //delete this if possible
-
-	private void setName(String string) {
-		// TODO Auto-generated method stub
-		
-	} //delete this if possible*/
 
 	public GroceryItems(String n, double unit, int quantity) {
 		name = n;

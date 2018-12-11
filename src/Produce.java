@@ -5,16 +5,13 @@ public class Produce extends GroceryItems {
 		private double weight;
 		
 		public Produce (double unit, int quantity, String n, String exp, double w) {
-			super(unit, quantity, n);
+			super(n, unit, quantity);
 			
 			setExpiration(exp);
 			setWeight(w);
 			setUnitPrice();
 		}
 		
-		public Produce(String string, double d, int i, String exp, int w) {
-			// TODO Auto-generated constructor stub
-		}
 
 		public void setUnitPrice() {
 			setUnitPrice(weight * getUnitPrice());

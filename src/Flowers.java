@@ -4,15 +4,12 @@ public class Flowers extends GroceryItems{
 	private String color;
 	
 	public Flowers (double unit, int quantity, String n, String v, String c) {
-		super (unit, quantity, n);
+		super (n, unit, quantity);
 		
 		setVariety(v);
 		setColor(c);
 	}
 	
-	public Flowers(String string, double d, int i, String v, String c) {
-		// TODO Auto-generated constructor stub
-	}
 
 	public void setVariety(String v) {
 		variety = v;
